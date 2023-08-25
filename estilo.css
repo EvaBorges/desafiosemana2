@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    margin: 0%;
+    top: 0px;
+    z-index: 10;
+    
+}
+#logo {
+    width: 50px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 10 5 20 5;
+}
+
+li:hover{
+    background-color: lightblue;
+}
+
+#imagem_fundo {
+    background: url("fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-image: cover;
+}
+#agua {
+    background: url("img/agua.jpeg");
+    height: 100%;
+    text-align: center;
+    background-image: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 100px;
+}
+section {
+    padding: 20px;
+    float: left;
+    
+}
+.destaque {
+    background-color: rgb(189, 230, 233);
+    width: 100%;
+}
+.declara {
+    color: white;
+    border-top: 3px solid white;
+    text-shadow: 2px 1px  black;
+    font-size: 20px;
+    background-color: rgb(189, 230, 233);
+}
+.eu {
+    background-color: rgb(189, 230, 233);
+    width: 100%;
+}
+.imgeu {
+    width: 200px;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    
+}
+.dois{ width: 40%;
+}
+.quatro{
+    width: 15%;
+}
+
+.justificado{
+    text-align: justify;
+}
+.centralizar{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 100%;
+    
+}
